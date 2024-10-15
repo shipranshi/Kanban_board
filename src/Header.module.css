@@ -1,0 +1,70 @@
+.headerContainer {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.displayButton {
+  position: relative;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background-color: #f4f4f4;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Align images and text */
+  /* width: 250px; Set the width of the box */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+}
+
+.displayButton span {
+  margin: 0 10px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+.dropdownMenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 10px;
+  z-index: 100;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdownMenu.show {
+  display: block;
+}
+
+.dropdownMenu div {
+  margin-bottom: 10px;
+}
+
+.dropdownMenu label {
+  display: block;
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.dropdownMenu select {
+  width: 100%;
+  padding: 6px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #f5ecec;
+}

@@ -1,0 +1,95 @@
+
+/* Scoped CSS styles */
+.kanbanBoard {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.groupColumn {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+
+/* Main container for header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f7f9fc;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 16px;
+  font-family: Arial, sans-serif;
+}
+
+/* Left part of the header */
+.headerLeft {
+  display: flex;
+  align-items: center;
+}
+
+/* Icon for the status */
+.statusLcon {
+  width: 10px;
+  height: 10px;
+  background-color: #f3cc41; /* Yellow circle */
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/* Status text */
+.statusText {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Task count bubble */
+.taskCount {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #eceff4;
+  color: #333;
+  padding: 2px 6px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+/* Right part of the header (button) */
+.headerRight {
+  display: flex;
+  align-items: center;
+}
+
+/* Button to add tasks */
+.addTaskButton {
+  background-color: #f3f3f3;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #888;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addTaskButton:hover {
+  background-color: #ddd;
+}
+
+.statusIconImg {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  display: inline-block;
+  border-radius: 50%; /* If you want it to be circular like an icon */
+}

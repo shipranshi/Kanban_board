@@ -1,0 +1,92 @@
+/* Card Container */
+.card {
+  width: 400px;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Top Section (Title, CAM-11) */
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+/* Card ID (e.g. CAM-11) */
+.cardId {
+  font-size: 14px;
+  font-weight: bold;
+  color: #7d7d7d;
+  font-family: "Roboto", sans-serif; 
+
+}
+
+/* Profile Image */
+.cardProfile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+/* Card Title */
+.cardTitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 12px;
+  font-family: "Roboto", sans-serif; 
+
+}
+
+/* Card Labels */
+.cardLabels {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; /* Allow labels to wrap to the next line */
+
+}
+
+.cardLabels .icon {
+  width: 20px;
+  height: 20px;
+  background-color: hwb(0 100% 0%); /* Yellow warning color */
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+  margin-right: 8px;
+}
+
+.cardLabels .label {
+  font-size: 14px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  padding: 4px 8px;
+  color: #555;
+  border: 1px solid #333;
+  margin: 1px;
+  margin-right: 4px;
+    font-family: "Roboto", sans-serif; 
+
+}
+
+/* Example CSS for profile image */
+.cardProfile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  object-fit: cover;
+  background-color: #f0f0f0;
+}
