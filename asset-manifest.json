@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Kanban_board/static/css/main.c89acf5d.css",
+    "main.js": "/Kanban_board/static/js/main.5e5e4904.js",
+    "static/js/453.f0f88b0d.chunk.js": "/Kanban_board/static/js/453.f0f88b0d.chunk.js",
+    "static/media/user.jpg": "/Kanban_board/static/media/user.8d101ac251e34c16525e.jpg",
+    "static/media/Display.svg": "/Kanban_board/static/media/Display.0168095040354204011b596e30abf32e.svg",
+    "static/media/Status_Cancelled.svg": "/Kanban_board/static/media/Status_Cancelled.360749f102ea2ac68b5841e9f9ff29dd.svg",
+    "static/media/Priority_No.svg": "/Kanban_board/static/media/Priority_No.7218b139313728c6a4efa8da6e34852b.svg",
+    "static/media/Status_Done.svg": "/Kanban_board/static/media/Status_Done.a5158827c6345b2f141ff681c57cb3ac.svg",
+    "static/media/down.svg": "/Kanban_board/static/media/down.b19d146ddbaad572f0f5cebb6dbdf766.svg",
+    "index.html": "/Kanban_board/index.html",
+    "static/media/Priority_Low.svg": "/Kanban_board/static/media/Priority_Low.491e21f9000cb90112dea470dbb72650.svg",
+    "static/media/Priority_Medium.svg": "/Kanban_board/static/media/Priority_Medium.83775665307e977d62e9b0fc7fb95cc4.svg",
+    "static/media/Priority_High.svg": "/Kanban_board/static/media/Priority_High.5024fd0d163cb13c95f2d29079e2974d.svg",
+    "static/media/Status_InProgress.svg": "/Kanban_board/static/media/Status_InProgress.d4beb72fbc94f765259fc46ecaba9779.svg",
+    "static/media/Priority_Urgent.svg": "/Kanban_board/static/media/Priority_Urgent.9b67f75d5459d4d66573ef9f8e6f6841.svg",
+    "static/media/Status_Backlog.svg": "/Kanban_board/static/media/Status_Backlog.97adf3356b7d2e775ef530f7aed206e0.svg",
+    "static/media/Status_Todo.svg": "/Kanban_board/static/media/Status_Todo.c01d92afcffeef58b2cd9ae080df1f58.svg",
+    "main.c89acf5d.css.map": "/Kanban_board/static/css/main.c89acf5d.css.map",
+    "main.5e5e4904.js.map": "/Kanban_board/static/js/main.5e5e4904.js.map",
+    "453.f0f88b0d.chunk.js.map": "/Kanban_board/static/js/453.f0f88b0d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c89acf5d.css",
+    "static/js/main.5e5e4904.js"
+  ]
+}
